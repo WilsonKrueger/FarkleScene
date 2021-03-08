@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="549.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="farklescene.StartingSceneController">
+   <children>
+      <Button fx:id="buttonStart" layoutX="147.0" layoutY="472.0" mnemonicParsing="false" onAction="#buttonStartAction" text="Start" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="147.01171875" />
+      <Label layoutX="35.0" layoutY="14.0" text="Welcome to the Game of Farkle!" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="109.0" text="Game Rules" underline="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="162.0" prefHeight="316.0" prefWidth="612.0" text="This is a dice game to play with 4 players. There are six dice to roll. Ones are worth 100 points and Fives are worth 50 points. Farkling results from the dice rolled not containing any ones or fives and results in zero points for that turn. Each player is allowed one roll per turn. The first player to 1,500 points Wins!!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
